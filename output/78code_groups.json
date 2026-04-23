@@ -1,0 +1,86 @@
+[
+  {
+    "group_name": "全部",
+    "multiplier": "",
+    "multiplier_raw": "",
+    "disabled": false,
+    "button_index": 7
+  },
+  {
+    "group_name": "aws官",
+    "multiplier": "1.5",
+    "multiplier_raw": "x1.5",
+    "disabled": true,
+    "button_index": 8
+  },
+  {
+    "group_name": "default",
+    "multiplier": "1.5",
+    "multiplier_raw": "x1.5",
+    "disabled": false,
+    "button_index": 9
+  },
+  {
+    "group_name": "free-cc",
+    "multiplier": "0.35",
+    "multiplier_raw": "x0.35",
+    "disabled": true,
+    "button_index": 10
+  },
+  {
+    "group_name": "gemini-image",
+    "multiplier": "1.65",
+    "multiplier_raw": "x1.65",
+    "disabled": false,
+    "button_index": 11
+  },
+  {
+    "group_name": "kiro",
+    "multiplier": "0.35",
+    "multiplier_raw": "x0.35",
+    "disabled": false,
+    "button_index": 12
+  },
+  {
+    "group_name": "new-cc",
+    "multiplier": "1.5",
+    "multiplier_raw": "x1.5",
+    "disabled": false,
+    "button_index": 13
+  },
+  {
+    "group_name": "newcc-优惠版",
+    "multiplier": "1.4",
+    "multiplier_raw": "x1.4",
+    "disabled": false,
+    "button_index": 14
+  },
+  {
+    "group_name": "vip-1-codex",
+    "multiplier": "0.25",
+    "multiplier_raw": "x0.25",
+    "disabled": false,
+    "button_index": 15
+  },
+  {
+    "group_name": "vip-1-codex外接",
+    "multiplier": "0.25",
+    "multiplier_raw": "x0.25",
+    "disabled": false,
+    "button_index": 16
+  },
+  {
+    "group_name": "vip-2-gemini",
+    "multiplier": "2.1",
+    "multiplier_raw": "x2.1",
+    "disabled": false,
+    "button_index": 17
+  },
+  {
+    "group_name": "逆向droid",
+    "multiplier": "0.8",
+    "multiplier_raw": "x0.8",
+    "disabled": false,
+    "button_index": 18
+  }
+]

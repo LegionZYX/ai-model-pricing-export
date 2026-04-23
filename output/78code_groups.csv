@@ -1,0 +1,13 @@
+﻿group_name,multiplier,multiplier_raw,disabled,button_index
+全部,,,False,7
+aws官,1.5,x1.5,True,8
+default,1.5,x1.5,False,9
+free-cc,0.35,x0.35,True,10
+gemini-image,1.65,x1.65,False,11
+kiro,0.35,x0.35,False,12
+new-cc,1.5,x1.5,False,13
+newcc-优惠版,1.4,x1.4,False,14
+vip-1-codex,0.25,x0.25,False,15
+vip-1-codex外接,0.25,x0.25,False,16
+vip-2-gemini,2.1,x2.1,False,17
+逆向droid,0.8,x0.8,False,18
