@@ -411,7 +411,32 @@ def build_rows_78_groups(groups: list[GroupInfo]) -> list[dict[str, Any]]:
     return rows
 
 
-def build_rows_78_group_models(
+def build_rows_78_group_models_using_group_page(
+    group_models: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    rows = []
+    for model in sorted(group_models, key=lambda item: (item["group_name"], item["model_id"])):
+        rows.append(
+            {
+                "group_name": model["group_name"],
+                "group_multiplier": format_amount(model["group_multiplier"]),
+                "group_multiplier_raw": model["group_multiplier_raw"],
+                "group_disabled": model["group_disabled"],
+                "model_id": model["model_id"],
+                "display_name": model["display_name"],
+                "billing_type": model["billing_type"],
+                "base_input": format_amount(model["base_input"]),
+                "base_output": format_amount(model["base_output"]),
+                "effective_input": format_amount(multiply_amount(model["base_input"], model["group_multiplier"])),
+                "effective_output": format_amount(multiply_amount(model["base_output"], model["group_multiplier"])),
+                "raw_price_lines": " || ".join(model["raw_lines"]),
+                "page_number": model["page_number"],
+            }
+        )
+    return rows
+
+
+def build_rows_78_group_models_using_global_base(
     group_models: list[dict[str, Any]],
     base_models: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
@@ -439,7 +464,33 @@ def build_rows_78_group_models(
     return rows
 
 
-def build_rows_78_group_price_items(
+def build_rows_78_group_price_items_using_group_page(
+    group_models: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    rows = []
+    for model in sorted(group_models, key=lambda item: (item["group_name"], item["model_id"])):
+        for item in model["price_items"]:
+            rows.append(
+                {
+                    "group_name": model["group_name"],
+                    "group_multiplier": format_amount(model["group_multiplier"]),
+                    "group_disabled": model["group_disabled"],
+                    "model_id": model["model_id"],
+                    "price_kind": item.get("kind", ""),
+                    "charge_type": item["charge_type"],
+                    "unit": item["unit"],
+                    "label": item["label"],
+                    "raw_line": item["raw_line"],
+                    "base_amount_1": format_amount(item["amount_1"]),
+                    "base_amount_2": format_amount(item["amount_2"]),
+                    "effective_amount_1": format_amount(multiply_amount(item["amount_1"], model["group_multiplier"])),
+                    "effective_amount_2": format_amount(multiply_amount(item["amount_2"], model["group_multiplier"])),
+                }
+            )
+    return rows
+
+
+def build_rows_78_group_price_items_using_global_base(
     group_models: list[dict[str, Any]],
     base_models: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
@@ -572,15 +623,18 @@ def build_summary_markdown(
         "",
         "- `78code_models_base.csv`: 78 code base model list.",
         "- `78code_groups.csv`: 78 code group names and multipliers.",
-        "- `78code_group_models.csv`: enabled-group membership and effective input/output after multiplier.",
-        "- `78code_group_price_items.csv`: enabled-group itemized effective prices for every visible price item.",
+        "- `78code_group_models.csv`: enabled-group membership and effective prices using group-page displayed prices x multiplier.",
+        "- `78code_group_price_items.csv`: itemized effective prices using group-page displayed prices x multiplier.",
+        "- `78code_group_models_old.csv`: previous logic using global base prices x multiplier.",
+        "- `78code_group_price_items_old.csv`: previous itemized logic using global base prices x multiplier.",
         "- `geekai_models.csv`: GeekAI full model list with text-tier columns.",
         "- `geekai_price_items.csv`: GeekAI itemized price lines.",
         "- `comparison_exact_match.csv`: compare 78 base models against GeekAI exact `model_id` matches.",
         "",
         "## Notes",
         "",
-        "- 78 code effective prices are computed as `displayed price x group multiplier`.",
+        "- Main 78 group exports now use the group page's displayed prices, then multiply by the group's multiplier.",
+        "- Old logic files keep the previous `global base price x multiplier` interpretation for reference.",
         "- Disabled 78 groups are listed in `78code_groups.csv` but not expanded into membership rows.",
         "- Exact-match comparison uses `model_id` equality only; aliases or family-level matches are not merged.",
     ]
@@ -602,8 +656,10 @@ def main() -> None:
 
     rows_78_base = build_rows_78_base(models_78)
     rows_78_groups = build_rows_78_groups(groups_78)
-    rows_78_group_models = build_rows_78_group_models(group_models_78, models_78)
-    rows_78_group_items = build_rows_78_group_price_items(group_models_78, models_78)
+    rows_78_group_models = build_rows_78_group_models_using_group_page(group_models_78)
+    rows_78_group_items = build_rows_78_group_price_items_using_group_page(group_models_78)
+    rows_78_group_models_old = build_rows_78_group_models_using_global_base(group_models_78, models_78)
+    rows_78_group_items_old = build_rows_78_group_price_items_using_global_base(group_models_78, models_78)
     rows_geekai = build_rows_geekai(geekai_models)
     rows_geekai_items = build_rows_geekai_price_items(geekai_models)
 
@@ -647,6 +703,44 @@ def main() -> None:
     write_csv(
         OUT_DIR / "78code_group_price_items.csv",
         rows_78_group_items,
+        [
+            "group_name",
+            "group_multiplier",
+            "group_disabled",
+            "model_id",
+            "price_kind",
+            "charge_type",
+            "unit",
+            "label",
+            "raw_line",
+            "base_amount_1",
+            "base_amount_2",
+            "effective_amount_1",
+            "effective_amount_2",
+        ],
+    )
+    write_csv(
+        OUT_DIR / "78code_group_models_old.csv",
+        rows_78_group_models_old,
+        [
+            "group_name",
+            "group_multiplier",
+            "group_multiplier_raw",
+            "group_disabled",
+            "model_id",
+            "display_name",
+            "billing_type",
+            "base_input",
+            "base_output",
+            "effective_input",
+            "effective_output",
+            "raw_price_lines",
+            "page_number",
+        ],
+    )
+    write_csv(
+        OUT_DIR / "78code_group_price_items_old.csv",
+        rows_78_group_items_old,
         [
             "group_name",
             "group_multiplier",
@@ -723,6 +817,7 @@ def main() -> None:
     save_json(OUT_DIR / "78code_models_base.json", rows_78_base)
     save_json(OUT_DIR / "78code_groups.json", rows_78_groups)
     save_json(OUT_DIR / "78code_group_models.json", rows_78_group_models)
+    save_json(OUT_DIR / "78code_group_models_old.json", rows_78_group_models_old)
     save_json(OUT_DIR / "geekai_models.json", rows_geekai)
     save_json(OUT_DIR / "comparison_exact_match.json", comparison_rows)
 
