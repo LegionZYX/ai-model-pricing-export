@@ -17,12 +17,16 @@ This repo contains a live export and comparison workflow for:
 - `output/geekai_models.csv`: full GeekAI model list
 - `output/geekai_price_items.csv`: itemized GeekAI prices
 - `output/comparison_exact_match.csv`: exact `model_id` comparison using 78 as the primary side
+- `output/recommendation_exact_match.csv`: recommended vendor table using the new 78 group-price logic
+- `output/recommendation_no_exact_match.csv`: 78 models without exact GeekAI `model_id` matches
+- `output/RECOMMENDATION_SUMMARY.md`: recommendation summary
 - `output/SUMMARY.md`: export summary
 
 ## Run
 
 ```powershell
 python .\export_model_pricing.py
+python .\generate_recommendation_tables.py
 ```
 
 Outputs are written to `output/`.

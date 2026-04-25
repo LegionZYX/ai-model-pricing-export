@@ -1,0 +1,119 @@
+﻿model_id,model_78_name,billing_type_78,input_78_global,output_78_global,best_78_group,best_78_multiplier,best_78_effective_input,best_78_effective_output,best_78_effective_total,geekai_match,geekai_display_name,geekai_context,geekai_best_tier,geekai_best_input,geekai_best_output,geekai_best_total,recommended_vendor,cheaper_by_total,ratio_78_vs_geekai,comparison_note
+chatgpt-4o-latest,chatgpt-4o-latest,按量计费,18.75,56.25,vip-1-codex,0.25,4.6875,14.0625,18.75,yes,ChatGPT 4o,128K,low,5.625,16.875,22.5,78,3.75,0.833333,78 lower on both input and output
+claude-haiku-4-5,claude-haiku-4-5,按量计费,60,300,逆向droid,0.8,48,240,288,yes,Claude Haiku 4.5,200K,low,0.75,3.75,4.5,GeekAI,283.5,64,GeekAI lower on both input and output
+claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,按量计费,0.49,2.45,kiro,0.35,0.1715,0.8575,1.029,no,,,,,,,no_exact_match,,,
+claude-opus-4-1-20250805,claude-opus-4-1-20250805,按量计费,25.5,127.5,default,1.5,38.25,191.25,229.5,no,,,,,,,no_exact_match,,,
+claude-opus-4-20250514,claude-opus-4-20250514,按量计费,10.5,52.5,default,1.5,15.75,78.75,94.5,no,,,,,,,no_exact_match,,,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,按量计费,2.45,12.25,kiro,0.35,0.8575,4.2875,5.145,no,,,,,,,no_exact_match,,,
+claude-opus-4-6,claude-opus-4-6,按量计费,2.45,12.25,kiro,0.35,0.8575,4.2875,5.145,yes,Claude Opus 4.6,1000K,low,3.75,18.75,22.5,78,17.355,0.228667,78 lower on both input and output
+claude-opus-4-6-fast,claude-opus-4-6-fast,按量计费,60,300,逆向droid,0.8,48,240,288,no,,,,,,,no_exact_match,,,
+claude-opus-4-7,claude-opus-4-7,按量计费,9.8,49,newcc-优惠版,1.4,13.72,68.6,82.32,yes,Claude Opus 4.7,1000K,low,3.75,18.75,22.5,GeekAI,59.82,3.658667,GeekAI lower on both input and output
+claude-sonnet-4-20250514,claude-sonnet-4-20250514,按量计费,25.5,127.5,default,1.5,38.25,191.25,229.5,no,,,,,,,no_exact_match,,,
+claude-sonnet-4-5-20250929,claude-sonnet-4-5-20250929,按量计费,1.75,8.75,kiro,0.35,0.6125,3.0625,3.675,no,,,,,,,no_exact_match,,,
+claude-sonnet-4-6,claude-sonnet-4-6,按量计费,1.47,7.35,kiro,0.35,0.5145,2.5725,3.087,yes,Claude Sonnet 4.6,200K,low,2.25,11.25,13.5,78,10.413,0.228667,78 lower on both input and output
+gemini-2.0-flash,gemini-2.0-flash,按量计费,0.165,0.66,gemini-image,1.65,0.27225,1.089,1.36125,yes,Gemini 2.0 Flash,1024K,low,0.075,0.3,0.375,GeekAI,0.98625,3.63,GeekAI lower on both input and output
+gemini-2.0-flash-001,gemini-2.0-flash-001,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,no,,,,,,,no_exact_match,,,
+gemini-2.0-flash-exp,gemini-2.0-flash-exp,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,no,,,,,,,no_exact_match,,,
+gemini-2.0-flash-lite,gemini-2.0-flash-lite,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,yes,Gemini 2.0 Flash-Lite,1024K,low,0.056,0.225,0.281,GeekAI,1020.6565,3633.229537,GeekAI lower on both input and output
+gemini-2.0-flash-lite-preview-02-05,gemini-2.0-flash-lite-preview-02-05,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,no,,,,,,,no_exact_match,,,
+gemini-2.0-flash-thinking-exp,gemini-2.0-flash-thinking-exp,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,no,,,,,,,no_exact_match,,,
+gemini-2.0-flash-thinking-exp-01-21,gemini-2.0-flash-thinking-exp-01-21,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,no,,,,,,,no_exact_match,,,
+gemini-2.0-flash-thinking-exp-1219,gemini-2.0-flash-thinking-exp-1219,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,no,,,,,,,no_exact_match,,,
+gemini-2.5-flash,gemini-2.5-flash,按量计费,0.495,4.125,gemini-image,1.65,0.81675,6.80625,7.623,yes,Gemini 2.5 Flash,1024K,low,0.225,1.875,2.1,GeekAI,5.523,3.63,GeekAI lower on both input and output
+gemini-2.5-flash-image,gemini-2.5-flash-image,按量计费,123.75,1031.25,gemini-image,1.65,204.1875,1701.5625,1905.75,yes,Gemini 2.5 Flash 画图版,32K,low,0.225,1.875,2.1,GeekAI,1903.65,907.5,GeekAI lower on both input and output
+gemini-2.5-flash-image-preview,gemini-2.5-flash-image-preview,按量计费,123.75,1031.25,gemini-image,1.65,204.1875,1701.5625,1905.75,yes,Gemini 2.5 Flash 画图版,32K,low,0.225,1.875,2.1,GeekAI,1903.65,907.5,GeekAI lower on both input and output
+gemini-2.5-flash-lite,gemini-2.5-flash-lite,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,yes,Gemini 2.5 Flash-Lite,1024K,balanced,0.225,0.9,1.125,GeekAI,1019.8125,907.5,GeekAI lower on both input and output
+gemini-2.5-flash-lite-preview-09-2025,gemini-2.5-flash-lite-preview-09-2025,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,yes,Gemini 2.5 Flash-Lite 预览版,1024K,low,0.075,0.3,0.375,GeekAI,1020.5625,2722.5,GeekAI lower on both input and output
+gemini-2.5-flash-preview-04-17,gemini-2.5-flash-preview-04-17,按量计费,123.75,2887.5,gemini-image,1.65,204.1875,4764.375,4968.5625,yes,Gemini 2.5 Flash 预览版 V0417,1024K,low,0.225,1.875,2.1,GeekAI,4966.4625,2365.982143,GeekAI lower on both input and output
+gemini-2.5-flash-preview-04-17-thinking,gemini-2.5-flash-preview-04-17-thinking,按量计费,123.75,2887.5,gemini-image,1.65,204.1875,4764.375,4968.5625,no,,,,,,,no_exact_match,,,
+gemini-2.5-flash-preview-05-20,gemini-2.5-flash-preview-05-20,按量计费,123.75,2887.5,gemini-image,1.65,204.1875,4764.375,4968.5625,yes,Gemini 2.5 Flash 预览版 V0520,1024K,low,0.225,1.875,2.1,GeekAI,4966.4625,2365.982143,GeekAI lower on both input and output
+gemini-2.5-flash-preview-09-2025,gemini-2.5-flash-preview-09-2025,按量计费,123.75,2887.5,gemini-image,1.65,204.1875,4764.375,4968.5625,yes,Gemini 2.5 Flash 预览版,1024K,low,0.225,1.875,2.1,GeekAI,4966.4625,2365.982143,GeekAI lower on both input and output
+gemini-2.5-flash-thinking,gemini-2.5-flash-thinking,按量计费,123.75,1031.25,gemini-image,1.65,204.1875,1701.5625,1905.75,no,,,,,,,no_exact_match,,,
+gemini-2.5-pro,gemini-2.5-pro,按量计费,2.063,16.5,gemini-image,1.65,3.40395,27.225,30.62895,yes,Gemini 2.5 Pro,1024K,low,0.938,7.5,8.438,GeekAI,22.19095,3.629883,GeekAI lower on both input and output
+gemini-2.5-pro-exp-03-25,gemini-2.5-pro-exp-03-25,按量计费,123.75,990,gemini-image,1.65,204.1875,1633.5,1837.6875,no,,,,,,,no_exact_match,,,
+gemini-2.5-pro-preview-03-25,gemini-2.5-pro-preview-03-25,按量计费,123.75,990,gemini-image,1.65,204.1875,1633.5,1837.6875,yes,Gemini 2.5 Pro 预览版 V0325,1024K,low,0.938,7.5,8.438,GeekAI,1829.2495,217.787094,GeekAI lower on both input and output
+gemini-2.5-pro-preview-05-06,gemini-2.5-pro-preview-05-06,按量计费,123.75,990,gemini-image,1.65,204.1875,1633.5,1837.6875,yes,Gemini 2.5 Pro 预览版 V0506,1024K,low,0.938,7.5,8.438,GeekAI,1829.2495,217.787094,GeekAI lower on both input and output
+gemini-2.5-pro-preview-06-05,gemini-2.5-pro-preview-06-05,按量计费,123.75,990,gemini-image,1.65,204.1875,1633.5,1837.6875,yes,Gemini 2.5 Pro 预览版 V0605,1024K,low,0.938,7.5,8.438,GeekAI,1829.2495,217.787094,GeekAI lower on both input and output
+gemini-2.5-pro-preview-06-05-thinking,gemini-2.5-pro-preview-06-05-thinking,按量计费,123.75,990,gemini-image,1.65,204.1875,1633.5,1837.6875,no,,,,,,,no_exact_match,,,
+gemini-2.5-pro-thinking,gemini-2.5-pro-thinking,按量计费,2.063,16.5,gemini-image,1.65,3.40395,27.225,30.62895,no,,,,,,,no_exact_match,,,
+gemini-3-flash-preview,gemini-3-flash-preview,按量计费,0.825,4.95,gemini-image,1.65,1.36125,8.1675,9.52875,yes,Gemini 3 Flash 预览版,1024K,low,0.375,2.25,2.625,GeekAI,6.90375,3.63,GeekAI lower on both input and output
+gemini-3-pro-preview,gemini-3-pro-preview,按量计费,3.3,19.8,gemini-image,1.65,5.445,32.67,38.115,yes,Gemini 3 Pro 预览版,1024K,low,1.5,9,10.5,GeekAI,27.615,3.63,GeekAI lower on both input and output
+gemini-3-pro-preview-11-2025,gemini-3-pro-preview-11-2025,按量计费,3.3,19.8,gemini-image,1.65,5.445,32.67,38.115,no,,,,,,,no_exact_match,,,
+gemini-3-pro-preview-thinking,gemini-3-pro-preview-thinking,按量计费,3.3,19.8,gemini-image,1.65,5.445,32.67,38.115,no,,,,,,,no_exact_match,,,
+gemini-3.1-flash-lite-preview,gemini-3.1-flash-lite-preview,按量计费,123.75,495,gemini-image,1.65,204.1875,816.75,1020.9375,yes,Gemini 3.1 Flash-Lite 预览版,1024K,balanced,0.563,3.375,3.938,GeekAI,1016.9995,259.252793,GeekAI lower on both input and output
+gemini-3.1-pro-preview,gemini-3.1-pro-preview,按量计费,3.3,19.8,gemini-image,1.65,5.445,32.67,38.115,yes,Gemini 3.1 Pro 预览版,1024K,low,1.5,9,10.5,GeekAI,27.615,3.63,GeekAI lower on both input and output
+gemini-3.1-pro-preview-thinking,gemini-3.1-pro-preview-thinking,按量计费,3.3,19.8,gemini-image,1.65,5.445,32.67,38.115,no,,,,,,,no_exact_match,,,
+gpt-3.5-turbo,gpt-3.5-turbo,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,yes,GPT-3.5 Turbo,16K,low,0.375,1.125,1.5,GeekAI,12.5625,9.375,GeekAI lower on both input and output
+gpt-3.5-turbo-0125,gpt-3.5-turbo-0125,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,no,,,,,,,no_exact_match,,,
+gpt-3.5-turbo-1106,gpt-3.5-turbo-1106,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,no,,,,,,,no_exact_match,,,
+gpt-3.5-turbo-16k,gpt-3.5-turbo-16k,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,no,,,,,,,no_exact_match,,,
+gpt-4,gpt-4,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,yes,GPT-4,8K,low,22.5,45,67.5,78,53.4375,0.208333,78 lower on both input and output
+gpt-4-turbo,gpt-4-turbo,按量计费,18.75,56.25,vip-1-codex,0.25,4.6875,14.0625,18.75,yes,GPT-4 Turbo,128K,low,7.5,22.5,30,78,11.25,0.625,78 lower on both input and output
+gpt-4-turbo-preview,gpt-4-turbo-preview,按量计费,18.75,56.25,vip-1-codex,0.25,4.6875,14.0625,18.75,no,,,,,,,no_exact_match,,,
+gpt-4.1,gpt-4.1,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,yes,GPT-4.1,1024K,low,1.5,6,7.5,GeekAI,6.5625,1.875,GeekAI lower on both input and output
+gpt-4.1-mini,gpt-4.1-mini,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,yes,GPT-4.1 mini,1024K,low,0.3,1.2,1.5,GeekAI,12.5625,9.375,GeekAI lower on both input and output
+gpt-4.1-nano,gpt-4.1-nano,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,yes,GPT-4.1 nano,1024K,low,0.075,0.3,0.375,GeekAI,13.6875,37.5,GeekAI lower on both input and output
+gpt-4.5-preview,gpt-4.5-preview,按量计费,18.75,37.5,vip-1-codex,0.25,4.6875,9.375,14.0625,yes,GPT-4.5 Preview,128K,low,56.25,112.5,168.75,78,154.6875,0.083333,78 lower on both input and output
+gpt-4o,gpt-4o,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,GPT-4o,128K,low,1.875,7.5,9.375,GeekAI,14.0625,2.5,GeekAI lower on both input and output
+gpt-4o-2024-08-06,gpt-4o-2024-08-06,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,no,,,,,,,no_exact_match,,,
+gpt-4o-2024-11-20,gpt-4o-2024-11-20,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,no,,,,,,,no_exact_match,,,
+gpt-4o-audio-preview,gpt-4o-audio-preview,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,GPT-4o Audio,128K,low,30,60,90,78,66.5625,0.260417,78 lower on both input and output
+gpt-4o-mini,gpt-4o-mini,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,GPT-4o mini,128K,low,0.113,0.45,0.563,GeekAI,22.8745,41.629663,GeekAI lower on both input and output
+gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,no,,,,,,,no_exact_match,,,
+gpt-4o-realtime-preview,gpt-4o-realtime-preview,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,no,,,,,,,no_exact_match,,,
+gpt-5,gpt-5,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5,400K,low,0.938,7.5,8.438,GeekAI,33.7495,4.999704,GeekAI lower on both input and output
+gpt-5-2025-08-07,gpt-5-2025-08-07,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-chat,gpt-5-chat,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5 Chat,128K,low,0.938,7.5,8.438,GeekAI,33.7495,4.999704,GeekAI lower on both input and output
+gpt-5-chat-latest,gpt-5-chat-latest,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-codex,gpt-5-codex,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5 Codex,400K,low,0.938,7.5,8.438,GeekAI,33.7495,4.999704,GeekAI lower on both input and output
+gpt-5-codex-high,gpt-5-codex-high,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-codex-low,gpt-5-codex-low,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-codex-medium,gpt-5-codex-medium,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-codex-mini,gpt-5-codex-mini,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-codex-mini-high,gpt-5-codex-mini-high,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-codex-mini-medium,gpt-5-codex-mini-medium,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-mini,gpt-5-mini,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5 mini,400K,low,0.188,1.5,1.688,GeekAI,40.4995,24.992595,GeekAI lower on both input and output
+gpt-5-mini-2025-08-07,gpt-5-mini-2025-08-07,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-nano,gpt-5-nano,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5 nano,400K,low,0.038,0.3,0.338,GeekAI,41.8495,124.815089,GeekAI lower on both input and output
+gpt-5-nano-2025-08-07,gpt-5-nano-2025-08-07,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5-pro,gpt-5-pro,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5 Pro,400K,low,11.25,90,101.25,78,59.0625,0.416667,78 lower on both input and output
+gpt-5-pro-2025-10-06,gpt-5-pro-2025-10-06,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.1,gpt-5.1,按量计费,0.438,3.5,vip-1-codex,0.25,0.1095,0.875,0.9845,yes,GPT-5.1,400K,low,0.938,7.5,8.438,78,7.4535,0.116675,78 lower on both input and output
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.1-chat-latest,gpt-5.1-chat-latest,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.1-codex,gpt-5.1-codex,按量计费,0.438,3.5,vip-1-codex,0.25,0.1095,0.875,0.9845,yes,GPT-5.1 Codex,400K,low,0.938,7.5,8.438,78,7.4535,0.116675,78 lower on both input and output
+gpt-5.1-codex-max,gpt-5.1-codex-max,按量计费,0.438,3.5,vip-1-codex,0.25,0.1095,0.875,0.9845,yes,GPT-5.1 Codex Max,400K,low,0.938,7.5,8.438,78,7.4535,0.116675,78 lower on both input and output
+gpt-5.1-codex-max-high,gpt-5.1-codex-max-high,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.1-codex-max-xhigh,gpt-5.1-codex-max-xhigh,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.1-codex-mini,gpt-5.1-codex-mini,按量计费,0.163,1.3,vip-1-codex,0.25,0.04075,0.325,0.36575,yes,GPT-5.1 Codex Mini,400K,low,0.375,3,3.375,78,3.00925,0.10837,78 lower on both input and output
+gpt-5.2,gpt-5.2,按量计费,0.438,3.5,vip-1-codex,0.25,0.1095,0.875,0.9845,yes,GPT-5.2,400K,low,1.313,10.5,11.813,78,10.8285,0.08334,78 lower on both input and output
+gpt-5.2-2025-12-11,gpt-5.2-2025-12-11,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.2-chat-latest,gpt-5.2-chat-latest,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.2-codex,gpt-5.2-codex,按量计费,0.438,3.5,vip-1-codex,0.25,0.1095,0.875,0.9845,yes,GPT-5.2 Codex,400K,low,1.313,10.5,11.813,78,10.8285,0.08334,78 lower on both input and output
+gpt-5.2-codex-high,gpt-5.2-codex-high,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.2-codex-low,gpt-5.2-codex-low,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.2-codex-medium,gpt-5.2-codex-medium,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.2-codex-xhigh,gpt-5.2-codex-xhigh,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.2-pro,gpt-5.2-pro,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5.2 Pro,400K,low,15.75,126,141.75,78,99.5625,0.297619,78 lower on both input and output
+gpt-5.2-pro-2025-12-11,gpt-5.2-pro-2025-12-11,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.3-codex,gpt-5.3-codex,按量计费,0.438,3.5,vip-1-codex,0.25,0.1095,0.875,0.9845,yes,GPT-5.3 Codex,400K,low,1.313,10.5,11.813,78,10.8285,0.08334,78 lower on both input and output
+gpt-5.3-codex-high,gpt-5.3-codex-high,按量计费,0.45,3.6,vip-1-codex,0.25,0.1125,0.9,1.0125,no,,,,,,,no_exact_match,,,
+gpt-5.3-codex-low,gpt-5.3-codex-low,按量计费,0.45,3.6,vip-1-codex,0.25,0.1125,0.9,1.0125,no,,,,,,,no_exact_match,,,
+gpt-5.3-codex-medium,gpt-5.3-codex-medium,按量计费,0.45,3.6,vip-1-codex,0.25,0.1125,0.9,1.0125,no,,,,,,,no_exact_match,,,
+gpt-5.3-codex-spark,gpt-5.3-codex-spark,按量计费,0.55,4.4,vip-1-codex,0.25,0.1375,1.1,1.2375,no,,,,,,,no_exact_match,,,
+gpt-5.3-codex-xhigh,gpt-5.3-codex-xhigh,按量计费,0.45,3.6,vip-1-codex,0.25,0.1125,0.9,1.0125,no,,,,,,,no_exact_match,,,
+gpt-5.4,gpt-5.4,按量计费,0.625,5,vip-1-codex,0.25,0.15625,1.25,1.40625,yes,GPT-5.4,1050K,low,1.875,11.25,13.125,78,11.71875,0.107143,78 lower on both input and output
+gpt-5.4-2026-03-05,gpt-5.4-2026-03-05,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+gpt-5.4-mini,gpt-5.4-mini,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5.4 Mini,400K,low,0.563,3.375,3.938,GeekAI,38.2495,10.712925,GeekAI lower on both input and output
+gpt-5.4-nano,gpt-5.4-nano,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,yes,GPT-5.4 Nano,400K,high,0.75,4.688,5.438,GeekAI,36.7495,7.757907,GeekAI lower on both input and output
+gpt-5.4-openai-compact,gpt-5.4-openai-compact,按量计费,18.75,150,vip-1-codex,0.25,4.6875,37.5,42.1875,no,,,,,,,no_exact_match,,,
+o1,o1,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,o1,200K,low,11.25,45,56.25,78,32.8125,0.416667,78 lower on both input and output
+o1-mini,o1-mini,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,OpenAI o1-mini,128K,low,0.825,3.3,4.125,GeekAI,19.3125,5.681818,GeekAI lower on both input and output
+o1-preview,o1-preview,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,OpenAI o1-preview,128K,low,11.25,45,56.25,78,32.8125,0.416667,78 lower on both input and output
+o1-pro,o1-pro,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,o1 Pro,200K,high,562.5,2250,2812.5,78,2789.0625,0.008333,78 lower on both input and output
+o3,o3,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,o3,200K,low,1.5,6,7.5,GeekAI,15.9375,3.125,GeekAI lower on both input and output
+o3-mini,o3-mini,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,o3-mini,200K,low,0.825,3.3,4.125,GeekAI,19.3125,5.681818,GeekAI lower on both input and output
+o3-pro,o3-pro,按量计费,18.75,75,vip-1-codex,0.25,4.6875,18.75,23.4375,yes,o3-pro,200K,low,15,60,75,78,51.5625,0.3125,78 lower on both input and output
+o4-mini,O4,按量计费,18.75,18.75,vip-1-codex,0.25,4.6875,4.6875,9.375,yes,o4-mini,200K,low,0.825,3.3,4.125,GeekAI,5.25,2.272727,GeekAI lower on both input and output
+模型价格 ¥0.396,gemini-3.1-flash-image-preview,按次计费,,,gemini-image,1.65,,,,no,,,,,,,no_exact_match,,,
+模型价格 ¥0.412,gemini-3-pro-image-preview,按次计费,,,gemini-image,1.65,,,,no,,,,,,,no_exact_match,,,
